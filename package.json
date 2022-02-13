@@ -1,0 +1,19 @@
+{
+  "name": "fncn-time-intervals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node ."
+  },
+  "author": "AlterFunction4",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^17.0.17",
+    "typescript": "^4.5.5"
+  }
+}
